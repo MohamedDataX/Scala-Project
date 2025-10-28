@@ -1,6 +1,7 @@
 import scala.util.Random
 import scala.io.StdIn
 
+
 object Exo2 {
   def main(args: Array[String]): Unit = {
 
@@ -8,7 +9,7 @@ object Exo2 {
     var attempts = 0
     var guess = -1
 
-    println("Guess a number between 0 and 100!")
+    println("Guess a number between 0 and 100 !!")
 
     while (guess != secretNumber) {
       print("Your guess: ")
